@@ -1,3 +1,7 @@
+a {
+  text-decoration: none;
+}
+
 h1 {
   text-align: center;
   color: white;
@@ -11,6 +15,10 @@ img {
   width: 130px;
   border: 2px solid white;
   box-shadow: 3px 3px 3px #999;
+}
+
+a img:hover {
+  width: 150px;
 }
 
 body {
@@ -190,12 +198,35 @@ thead {
   text-align: center;
 }
 
+/* Mongoose CSS
+=================*/
 
+.mongoose-background {
+  background: url("../img/mongoose-background.jpeg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 
+.pageTitlemongoose {
+  position:absolute;
+  bottom: 380px;
+  left: 50px;
+  font-size: 42px;
+  text-shadow: 2px 2px 2px #999;
+}
 
+/* Whale CSS
+=================*/
 
-
-
+.whale-background {
+  background: url("../img/whale-background.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 
 
 
