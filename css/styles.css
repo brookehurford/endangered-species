@@ -156,6 +156,7 @@ table {
   background-color: white;
   border-radius: 25px;
   box-shadow: 2px 2px 2px #999;
+  width: 300px;
 }
 
 thead {
@@ -226,6 +227,31 @@ thead {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+.pageTitleWhale {
+  position:absolute;
+  bottom: 400px;
+  left: 50px;
+  font-size: 42px;
+  text-shadow: 2px 2px 2px #999;
+}
+
+.mapWhale {
+  position:absolute;
+  top: 75px;
+  left: 50px;
+}
+
+.mapWhale img {
+  width: 370px;
+}
+
+.mapWhale h3 {
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.7);
+  box-shadow: 2px 2px 2px #999;
+  text-align: center;
 }
 
 
