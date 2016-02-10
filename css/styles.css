@@ -38,6 +38,10 @@ p {
   position: relative;
 }
 
+.species {
+  font-size: 16px;
+}
+
 .chimp {
   position: absolute;
   top: 400px;
@@ -46,7 +50,7 @@ p {
 
 .whale {
   position: absolute;
-  top: 750px;
+  top: 730px;
   left: 660px;
 }
 
@@ -58,8 +62,8 @@ p {
 
 .wallaby {
   position: absolute;
-  right: 180px;
-  bottom: 120px;
+  right: 220px;
+  bottom: 170px;
 }
 
 .jaguar {
@@ -97,3 +101,70 @@ p {
   left: 480px;
   bottom: 250px;
 }
+
+
+/* Chimp CSS
+=================*/
+
+.chimpBackground {
+  background: url("../img/chimp-background.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.transparent {
+  content: " ";
+  z-index: 10;
+  display: block;
+  position: absolute;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.pageTitle {
+  position:absolute;
+  bottom: 50px;
+  left: 50px;
+  font-size: 42px;
+  text-shadow: 2px 2px 2px #999;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ============
+bottom */
