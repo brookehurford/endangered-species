@@ -7,6 +7,12 @@ h1 {
   font-weight: lighter;
 }
 
+img {
+  width: 130px;
+  border: 2px solid white;
+  box-shadow: 3px 3px 3px #999;
+}
+
 .masthead {
   background-color: #0D47A1;
   width: 100%;
@@ -14,9 +20,69 @@ h1 {
   margin-bottom: 20px;
 }
 
-
 .world {
   background-image: url("../img/world-map-canvas.jpg");
   width: 1800px;
   height: 900px;
+  position: relative;
+}
+
+.chimp {
+  position: absolute;
+  top: 400px;
+  left: 900px;
+}
+
+.whale {
+  position: absolute;
+  top: 750px;
+  left: 660px;
+}
+
+.bat {
+  position: absolute;
+  top:240px;
+  left: 1300px;
+}
+
+.wallaby {
+  position: absolute;
+  right: 240px;
+  bottom: 220px;
+}
+
+.jaguar {
+  position: absolute;
+  left: 360px;
+  top: 280px;
+}
+
+.sea-lion {
+  position: absolute;
+  left: 900px;
+  top: 130px;
+}
+
+.mongoose {
+  position: absolute;
+  left: 50px;
+  bottom: 480px;
+}
+
+.lion {
+  position: absolute;
+  left: 1050px;
+  top: 230px;
+}
+
+.bobcat {
+  position: absolute;
+  left: 350px;
+  top: 120px;
+}
+
+.chinchilla {
+  position: absolute;
+  left: 480px;
+  bottom: 350px;
 }
