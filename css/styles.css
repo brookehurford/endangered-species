@@ -1,0 +1,11 @@
+.world {
+  background-image: url("../img/world-map-canvas.jpg");
+  width: 1800px;
+  height: 900px;
+}
+
+/*.world {
+  background-image: url("../img/world-map-canvas.jpg");
+  width: 1400px;
+  background-color: blue;
+}*/
