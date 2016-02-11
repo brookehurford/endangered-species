@@ -14,11 +14,7 @@ h1 {
 img {
   width: 130px;
   border: 2px solid white;
-  box-shadow: 3px 3px 3px #999;
-}
-
-a img:hover {
-  width: 150px;
+  box-shadow: 2px 2px 2px #999;
 }
 
 body {
@@ -60,10 +56,18 @@ p {
   left: 900px;
 }
 
+.chimp:hover {
+  border: 5px solid #0D47A1;
+}
+
 .whale {
   position: absolute;
   top: 730px;
   left: 660px;
+}
+
+.whale:hover {
+  border: 5px solid #0D47A1;
 }
 
 .bat {
@@ -72,10 +76,18 @@ p {
   left: 1300px;
 }
 
+.bat:hover {
+  border: 5px solid #0D47A1;
+}
+
 .wallaby {
   position: absolute;
   right: 220px;
   bottom: 170px;
+}
+
+.wallaby:hover {
+  border: 5px solid #0D47A1;
 }
 
 .jaguar {
@@ -84,10 +96,18 @@ p {
   top: 280px;
 }
 
+.jaguar:hover {
+  border: 5px solid #0D47A1;
+}
+
 .sea-lion {
   position: absolute;
   left: 900px;
   top: 130px;
+}
+
+.sea-lion:hover {
+  border: 5px solid #0D47A1;
 }
 
 .mongoose {
@@ -96,10 +116,18 @@ p {
   bottom: 380px;
 }
 
+.mongoose:hover {
+  border: 5px solid #0D47A1;
+}
+
 .lion {
   position: absolute;
   left: 1050px;
   top: 230px;
+}
+
+.lion:hover {
+  border: 5px solid #0D47A1;
 }
 
 .bobcat {
@@ -108,10 +136,18 @@ p {
   top: 80px;
 }
 
+.bobcat:hover {
+  border: 5px solid #0D47A1;
+}
+
 .chinchilla {
   position: absolute;
   left: 480px;
   bottom: 250px;
+}
+
+.chinchilla:hover {
+  border: 5px solid #0D47A1;
 }
 
 
