@@ -19,6 +19,8 @@ img {
 
 body {
   font-family: 'Alegreya Sans', sans-serif;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 p {
@@ -345,6 +347,49 @@ thead {
   text-align: center;
 }
 
+/* Wallaby CSS
+=================*/
+
+.wallaby-background {
+  background: url("../img/wallaby-background.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.pageTitleWallaby {
+  position: absolute;
+  top: 550px;
+  left: 50px;
+  font-size: 42px;
+  text-shadow: 2px 2px 2px #999;
+}
+
+.pageTitleWallaby {
+  position:absolute;
+  bottom: 370px;
+  left: 50px;
+  font-size: 42px;
+  text-shadow: 2px 2px 2px #999;
+}
+
+.mapWallaby {
+  position:absolute;
+  top: 75px;
+  left: 50px;
+}
+
+.mapWallaby img {
+  width: 390px;
+}
+
+.mapWallaby h3 {
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.7);
+  box-shadow: 2px 2px 2px #999;
+  text-align: center;
+}
 
 
 
